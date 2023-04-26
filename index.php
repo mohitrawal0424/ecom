@@ -9,18 +9,17 @@
     <!-- imported google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caladea:ital@1&family=Varela+Round&display=swap" rel="stylesheet">
 <style>
 *{
-    font-family: 'Staatliches', cursive;
+  font-family: 'Caladea', serif;
+font-family: 'Varela Round', sans-serif;
 }
 </style>
 </head>
 <body>
-    
-    <!-- navbar-->
+    <!-- HTML code for navbar -->
 <section>
-<!-- HTML code for navbar -->
 <nav class="navbar">
   <div class="logo">
     <a href="#"><img src="images/logo/logo.png" alt="Logo"></a>
@@ -36,7 +35,6 @@
     <a href="#">Cart</a>
   </div>
 </nav>
-
 </section>
 <script src="https://kit.fontawesome.com/0ef3c59d0f.js" crossorigin="anonymous"></script>
 </body>
