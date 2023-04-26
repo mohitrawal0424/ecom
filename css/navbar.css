@@ -1,0 +1,46 @@
+/* CSS code for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccee8d;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-links li {
+    margin-right: 20px;
+  }
+  
+  .menu-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .cart a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
