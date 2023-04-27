@@ -1,0 +1,26 @@
+/* CSS code for product grid container */
+.product-grid {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .product-grid h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .scrollable-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    scrollbar-width: none; /* Hide scrollbar in supported browsers */
+    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+  }
+  
+  .scrollable-grid::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers */
+  }
+  

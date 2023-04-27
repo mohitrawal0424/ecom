@@ -1,0 +1,43 @@
+/* CSS code for banner */
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+  }
+  
+  .banner-content {
+    margin-left: 30px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 36px;
+  }
+  
+  .banner-content  {
+    margin-left: 30px;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: 2px solid white;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
